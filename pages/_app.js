@@ -7,6 +7,7 @@ function MyApp({ Component, pageProps }) {
   return (
     <>
       <Head>
+        <link rel="preconnect" href="https://fonts.gstatic.com"></link>
         <title>Bridge</title>
       </Head>
       <Component {...pageProps} />
