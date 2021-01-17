@@ -83,6 +83,11 @@ const landingPage = () => {
               className={styles.locationSearch}
               alt="Busca por conhecimento"
             />
+
+            {/* 
+              TODO: Arrumar o tamanho da imagem 
+              e deixar o botão funcionando ainda sim 
+            */}
           </div>
         </section>
 
