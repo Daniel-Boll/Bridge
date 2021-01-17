@@ -10,8 +10,42 @@
     min-width: 230px;
 }
 
-.mainContainer button{
-    margin-top: 30px;
+.radioStyle{
+    display: flex;
+    width: 70%;
+    max-width: 400px;
+
+    margin-top: 15px;
+    
+    align-items: center;
+    justify-content: space-between;
+}
+
+.radioOptions{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 45%;
+    min-width: 78px;
+    padding: 5px;
+
+    color: #fff;
+    background-color: #952F2D;
+
+    border-radius: 12px;
+    border-style: none;
+
+    box-shadow: 4px 4px 5px  #000000;
+    cursor: pointer;
+
+    font-family: "Poppins";
+    font-size: 20px;
+
+    transition: background-color 0.75s;
+}
+
+.radioOptions:hover, .radioOptions:focus{
+    background-color: #781A18;
 }
 
 .coursesOptions{
@@ -19,33 +53,70 @@
     height: 100%;
     display: flex;
     flex-direction: column;
-    padding: 30px 50px;
+    padding: 50px 50px;
 
     align-items: center;
     justify-content: space-between;
 }
 
 .buttonStyle{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 15px;
+
     background-color: #303138;
     color: #B1B1B1;
-    border-radius: 12px;
+    border-radius: 12px 0 0 12px;
 
     width: 100%;
     min-width: 200px;
     max-width: 400px;
     height: 36px;
     border-style: none;
+
+    padding-bottom: 40px;
   
     font-family: "Roboto";
     font-weight: bold;
     font-size: 16px;
   
-    box-shadow: 4px 4px 5px #000000;
+    box-shadow: 4px 4px  #000000;
     cursor: pointer;
   
     transition: background-color 0.75s;
 }
 
 .buttonStyle:hover {
+    background-color: #202024;
+}
+
+.buttonContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin-left: 10px;
+
+    width: 100%;
+}
+
+.iconContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+
+    margin-right: 10px;
+
+    border-radius:  0 12px 12px 0;
+    box-shadow:  4px 4px #000000;
+    background-color: #303138;
+
+    cursor: pointer;
+  
+    transition: background-color 0.75s;
+}
+
+.iconContainer:hover {
     background-color: #202024;
 }
