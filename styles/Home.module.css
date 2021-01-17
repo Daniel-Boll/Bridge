@@ -1,0 +1,252 @@
+.headerContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  margin-top: 20px;
+}
+
+.logo {
+  width: 110px;
+}
+
+.slogan {
+  text-align: center;
+  font-size: 14px;
+}
+
+.sloganWeb {
+  display: none;
+  visibility: hidden;
+}
+
+.emphasis {
+  color: #ef534f;
+}
+
+.emphasisSecondary {
+  color: #806eaf;
+}
+
+.detailsContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.detailsTitle {
+  text-align: center;
+}
+
+.detailsBody {
+  padding-left: 40px;
+  padding-right: 40px;
+  max-width: 400px;
+  font-size: 14px;
+  text-align: justify;
+}
+
+.detailsCard {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  background-color: #303138;
+  border-radius: 16px;
+  width: 218px;
+  height: 52px;
+  box-shadow: 10px 7px 5px rgba(0, 0, 0, 0.25);
+
+  padding: 10px;
+}
+
+.discordIcon {
+  margin-left: -5px;
+}
+
+.amazonIcon {
+  margin-bottom: -6px;
+}
+
+.signDiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  margin-top: 20px;
+}
+
+.signContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+
+  background-color: #303138;
+  border-radius: 16px;
+  width: 320px;
+  height: 183px;
+  box-shadow: 10px 7px 5px rgba(0, 0, 0, 0.25);
+
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.signTitle {
+  font-size: 16px;
+  text-align: center;
+}
+
+.locationSearch {
+  display: none;
+  visibility: hidden;
+}
+
+.signButton {
+  background-color: #202024;
+  color: #806eaf;
+  border-radius: 7px;
+  width: 140px;
+  height: 36px;
+  border-style: none;
+
+  font-family: "Roboto";
+  font-weight: bold;
+  font-size: 16px;
+
+  box-shadow: 4px 4px 5px #000000;
+  cursor: pointer;
+
+  transition: background-color 0.75s;
+}
+
+.signButton:hover {
+  background-color: #101011;
+}
+
+.footerContainer {
+  background-color: #303138;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  margin-top: 50px;
+  padding: 15px;
+}
+
+.footerText {
+  font-size: 13px;
+}
+
+.footerLinks {
+  display: flex;
+  justify-content: space-between;
+}
+
+.twitterIcon {
+  height: 40px;
+  border-radius: 50%;
+
+  margin-right: 40px;
+}
+
+.whatsappIcon {
+  height: 40px;
+  margin-right: 40px;
+}
+
+@media (min-width: 900px) {
+  /* Versão web */
+  .wrapper {
+    display: grid;
+    height: 100vh;
+    grid-template-areas:
+      "logo logo logo"
+      "details details sign"
+      "footer footer footer";
+
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 140px auto 140px;
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+
+  .headerContainer {
+    grid-area: logo;
+  }
+
+  .logo {
+    margin-top: 40px;
+    margin-bottom: -20px;
+  }
+
+  .slogan {
+    display: none;
+    visibility: hidden;
+  }
+
+  .sloganWeb {
+    display: block;
+    visibility: visible;
+    font-size: 20px;
+  }
+
+  .detailsContainer {
+    grid-area: details;
+  }
+
+  .detailsTitle {
+    font-size: 36px;
+    width: 100%;
+  }
+
+  .detailsBody {
+    font-size: 18px;
+    width: 100%;
+    min-width: 400px;
+    max-width: 580px;
+  }
+
+  .detailsCard {
+    margin-top: 30px;
+    width: 30%;
+    height: 15%;
+  }
+
+  .signDiv {
+    grid-area: sign;
+  }
+
+  .signTitle {
+    font-size: 24px;
+  }
+
+  .signButton {
+    height: 120px;
+    font-size: 24px;
+  }
+
+  .signContainer {
+    height: 80%;
+  }
+
+  .footerContainer {
+    margin-right: -20px;
+    margin-left: -20px;
+    grid-area: footer;
+    padding-bottom: 35px;
+  }
+
+  .locationSearch {
+    display: block;
+    visibility: visible;
+    height: 60%;
+    width: 60%;
+    filter: drop-shadow(18px 4px 9px rgba(0, 0, 0, 0.5));
+  }
+}
