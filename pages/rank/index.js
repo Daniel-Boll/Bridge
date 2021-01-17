@@ -24,7 +24,7 @@ const rankPage =() => {
                     </div>
                     <div className={styles.userBody1}>
                         <img src={user3} alt="User picture"/>
-                        Edibaru
+                        Mateus Edival
                     </div>
                 </div>
                 <div className={styles.cardContainer}>
@@ -33,7 +33,7 @@ const rankPage =() => {
                     </div>
                     <div className={styles.userBody2}>
                         <img src={user4} alt="User picture"/>
-                        Big Boss
+                        Leonardo
                     </div>
                 </div>
                 <div className={styles.cardContainer}>
@@ -51,7 +51,7 @@ const rankPage =() => {
                     </div>
                     <div className={styles.userBody4}>
                         <img src={user5} alt="User picture"/>
-                        Ama nda
+                        Amanda
                     </div>
                 </div>
                 <div className={styles.cardContainer}>
@@ -60,7 +60,7 @@ const rankPage =() => {
                     </div>
                     <div className={styles.userBody4}>
                         <img src={user1} alt="User picture"/>
-                        Mateuzinho
+                        Felipi Matozinho
                     </div>
                 </div>
                 <Navigation active="courses"/>
