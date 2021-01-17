@@ -1,0 +1,224 @@
+.mainContainer {
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+    min-width: 230px;
+}
+
+.awardStyle{
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
+
+.rankTitle{
+    color: #F50312;
+
+    font-family: "Poppins";
+    font-size: 24px;
+    font-weight: 400;
+
+    margin-top: 20px;
+}
+
+.cardContainer {
+    display: flex;
+    width: 80%;
+    max-width: 350px;
+    height: 100%;
+    max-height: 110px;
+    min-height: 80px;
+
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 10px;
+    box-shadow: 4px 4px 5px #000;
+
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.userPosition1 {
+    display: flex;
+    height: 100%;
+    width: 15%;
+
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 10px 0 0 10px;
+
+    font-family: "Roboto";
+    font-size: 32px;
+    font-weight: bold;
+    color: #fff;
+
+    background-color: #FFC700;
+}
+
+.userBody1 {
+    display: flex;
+    height: 100%;
+    width: 85%;
+
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 0 10px 10px 0;
+
+    font-family: "Roboto";
+    font-size: 22px;
+    font-weight: 400;
+    color: #fff;
+
+    background-color: #303138;
+}
+
+.userBody1 img{
+    width: 70px;
+    height: auto;
+
+    margin-right: 20px;
+  
+    border-radius: 50%;
+}
+
+.userPosition2 {
+    display: flex;
+    height: 100%;
+    width: 15%;
+
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 10px 0 0 10px;
+
+    font-family: "Roboto";
+    font-size: 32px;
+    font-weight: bold;
+    color: #fff;
+
+    background-color: #807C84;
+}
+
+.userBody2 {
+    display: flex;
+    height: 100%;
+    width: 85%;
+
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 0 10px 10px 0;
+
+    font-family: "Roboto";
+    font-size: 22px;
+    font-weight: 400;
+    color: #fff;
+
+    background-color: #303138;
+}
+
+.userBody2 img{
+    width: 70px;
+    height: auto;
+
+    margin-right: 20px;
+  
+    border-radius: 50%;
+}
+
+.userPosition3 {
+    display: flex;
+    height: 100%;
+    width: 15%;
+
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 10px 0 0 10px;
+
+    font-family: "Roboto";
+    font-size: 32px;
+    font-weight: bold;
+    color: #fff;
+
+    background-color: #C17E31;
+}
+
+.userBody3 {
+    display: flex;
+    height: 100%;
+    width: 85%;
+
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 0 10px 10px 0;
+
+    font-family: "Roboto";
+    font-size: 22px;
+    font-weight: 400;
+    color: #fff;
+
+    background-color: #303138;
+}
+
+.userBody3 img{
+    width: 70px;
+    height: auto;
+
+    margin-right: 20px;
+  
+    border-radius: 50%;
+}
+.userPosition4 {
+    display: flex;
+    height: 100%;
+    width: 15%;
+
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 10px 0 0 10px;
+
+    font-family: "Roboto";
+    font-size: 32px;
+    font-weight: bold;
+    color: #fff;
+
+    background-color: #1F1F24;
+}
+
+.userBody4 {
+    display: flex;
+    height: 100%;
+    width: 85%;
+
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 0 10px 10px 0;
+
+    font-family: "Roboto";
+    font-size: 22px;
+    font-weight: 400;
+    color: #fff;
+
+    background-color: #303138;
+}
+
+.userBody4 img{
+    width: 70px;
+    height: auto;
+
+    margin-right: 20px;
+  
+    border-radius: 50%;
+}
