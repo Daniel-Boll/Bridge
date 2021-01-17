@@ -64,7 +64,7 @@ const StatisticPage = () => {
             src={userImage}
             alt="Nome do usuário"
           />
-          <p class={styles.userArea}>Tecnologia</p>
+          <p class={styles.userArea}>Banco de Dados <br/>Web <br/>Mobile</p>
         </div>
       </section>
 

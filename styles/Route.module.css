@@ -1,0 +1,31 @@
+.mainContainer {
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+    min-width: 230px;
+}
+
+.awardStyle{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+
+.courseTitle{
+    background-color: #952F2D;
+    color: #FFF;
+
+    font-family: "Poppins";
+    font-size: 20px;
+
+    margin-top: 30px;
+    padding: 10px;
+
+    border-radius: 12px;
+    box-shadow: 4px 4px 5px #000;
+}
