@@ -126,6 +126,7 @@
 
 .signButton:hover {
   background-color: #101011;
+  border-style: none;
 }
 
 .footerContainer {
