@@ -1,0 +1,51 @@
+.mainContainer {
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+    min-width: 230px;
+}
+
+.mainContainer button{
+    margin-top: 30px;
+}
+
+.coursesOptions{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 30px 50px;
+
+    align-items: center;
+    justify-content: space-between;
+}
+
+.buttonStyle{
+    background-color: #303138;
+    color: #B1B1B1;
+    border-radius: 12px;
+
+    width: 100%;
+    min-width: 200px;
+    max-width: 400px;
+    height: 36px;
+    border-style: none;
+  
+    font-family: "Roboto";
+    font-weight: bold;
+    font-size: 16px;
+  
+    box-shadow: 4px 4px 5px #000000;
+    cursor: pointer;
+  
+    transition: background-color 0.75s;
+}
+
+.buttonStyle:hover {
+    background-color: #202024;
+}
