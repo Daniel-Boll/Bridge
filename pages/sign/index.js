@@ -1,3 +1,6 @@
+// Modules
+import { useRouter } from "next/router";
+
 // Images
 import logoImage from "../../images/logoImage.svg";
 import darkLogoImage from "../../images/Logo2.svg";
@@ -10,6 +13,12 @@ import twitterIcon from "../../images/twitterIcon.svg";
 import styles from "../../styles/Sign.module.css";
 
 const signPage = () => {
+  const router = useRouter();
+
+  const handleLoginWithGithub = () => {
+    router.push("/area");
+  };
+
   return (
     <>
       <div className={styles.wrapper}>
@@ -30,40 +39,42 @@ const signPage = () => {
         <h1 className={styles.title}>Conecte-se</h1>
 
         <section className={styles.loginOptions}>
-          <div className={styles.githubInputContainer}>
-            <img
-              className={styles.githubIcon}
-              src={githubIcon}
-              alt="Login com Github"
-            />
-            <input
-              className={styles.githubInput}
-              placeholder="Login com Github"
-            />
-          </div>
-
-          <div className={styles.googleInputContainer}>
-            <img
-              className={styles.googleIcon}
-              src={gmailIcon}
-              alt="Login com Google"
-            />
-            <input
-              className={styles.googleInput}
-              placeholder="Login com Google"
-            />
-          </div>
-
-          <div className={styles.twitterInputContainer}>
-            <img
-              className={styles.twitterIcon}
-              src={twitterIcon}
-              alt="Login com Twitter"
-            />
-            <input
-              className={styles.twitterInput}
-              placeholder="Login com Twitter"
-            />
+          <div className={styles.loginCard}>
+            <h1 className={styles.titleWeb}>Conecte-se</h1>
+            <div className={styles.githubInputContainer}>
+              <img
+                className={styles.githubIcon}
+                src={githubIcon}
+                alt="Login com Github"
+                onClick={handleLoginWithGithub}
+              />
+              <input
+                className={styles.githubInput}
+                placeholder="Login com Github"
+              />
+            </div>
+            <div className={styles.googleInputContainer}>
+              <img
+                className={styles.googleIcon}
+                src={gmailIcon}
+                alt="Login com Google"
+              />
+              <input
+                className={styles.googleInput}
+                placeholder="Login com Google"
+              />
+            </div>
+            <div className={styles.twitterInputContainer}>
+              <img
+                className={styles.twitterIcon}
+                src={twitterIcon}
+                alt="Login com Twitter"
+              />
+              <input
+                className={styles.twitterInput}
+                placeholder="Login com Twitter"
+              />
+            </div>
           </div>
         </section>
 
