@@ -4,7 +4,7 @@ import { User, Play, File, AlignJustify } from "react-feather";
 
 import styles from "./Navigation.module.css";
 
-const Navigation = () => {
+const Navigation = ({ active }) => {
   const router = useRouter();
 
   const handleProfileClick = () => {
@@ -27,16 +27,32 @@ const Navigation = () => {
     <>
       <nav className={styles.nav}>
         <a onClick={handleProfileClick} className={styles.nav__link}>
-          <User size={32} />
+          {active == "profile" ? (
+            <User color="#EF534F" size={32} />
+          ) : (
+            <User size={32} />
+          )}
         </a>
         <a onClick={handleCourses} className={styles.nav__link}>
-          <Play color="#EF534F" size={32} />
+          {active == "courses" ? (
+            <Play color="#EF534F" size={32} />
+          ) : (
+            <Play size={32} />
+          )}
         </a>
         <a onClick={handleCertificates} className={styles.nav__link}>
-          <File size={32} />
+          {active == "certificates" ? (
+            <File color="#EF534F" size={32} />
+          ) : (
+            <File size={32} />
+          )}
         </a>
         <a onClick={handleMore} className={styles.nav__link}>
-          <AlignJustify size={32} />
+          {active == "more" ? (
+            <AlignJustify color="#EF534F" size={32} />
+          ) : (
+            <AlignJustify size={32} />
+          )}
         </a>
       </nav>
     </>
