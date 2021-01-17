@@ -1,0 +1,105 @@
+.mainContainer {
+  width: 100vw;
+  height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+
+  min-width: 230px;
+}
+
+.switchButtonsContainer {
+  margin-top: 20px;
+}
+
+.switchButtons {
+  border-radius: 20px;
+  background-color: #303138;
+  color: #fff;
+  outline: none;
+  border-style: none;
+  box-shadow: 10px 7px 5px rgba(0, 0, 0, 0.25);
+
+  font-family: Poppins;
+
+  width: 140px;
+  height: 40px;
+  margin-right: 5px;
+}
+
+.selected {
+  background-color: #804444;
+}
+
+.statisticsContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.divisor {
+  margin-bottom: 50px;
+}
+
+.profileContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+
+  text-align: center;
+  box-shadow: 10px 7px 5px rgba(0, 0, 0, 0.25);
+}
+
+.profileCard {
+  background: #303138;
+  border-radius: 20px;
+  width: 250px;
+  padding: 10px;
+}
+
+.userName {
+  text-align: center;
+  font-size: 22px;
+
+  margin-top: 10px;
+}
+
+.userImage {
+  width: 100px;
+  height: auto;
+
+  border-radius: 50%;
+  filter: drop-shadow(18px 4px 9px rgba(0, 0, 0, 0.5));
+}
+
+.userArea {
+  text-align: center;
+  color: #ef534f;
+  font-size: 14px;
+}
+
+.switch {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background-color: #303138;
+  border-radius: 20px;
+
+  padding-left: 25px;
+  padding-right: 20px;
+
+  margin-top: 25px;
+  margin-bottom: 10px;
+}
+
+.switchText {
+  font-size: 12px;
+  margin-right: 5px;
+  color: #cacaca;
+}
