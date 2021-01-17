@@ -1,0 +1,80 @@
+.mainContainer {
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+    min-width: 230px;
+}
+
+.areaTitle {
+    font-size: 24px;
+    margin-bottom: 50px;
+}
+
+.buttons{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 0 50px;
+
+    align-items: center;
+    justify-content: space-between;
+}
+
+.buttonArea{
+    background-color: #303138;
+    color: #B1B1B1;
+    border-radius: 12px;
+
+    width: 100%;
+    min-width: 200px;
+    max-width: 400px;
+    height: 36px;
+    border-style: none;
+  
+    font-family: "Roboto";
+    font-weight: bold;
+    font-size: 16px;
+  
+    box-shadow: 4px 4px 5px #000000;
+    cursor: pointer;
+  
+    transition: background-color 0.75s;
+}
+
+.buttonArea:hover {
+    background-color: #202024;
+}
+
+.footerContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 100%;
+    background-color: #303138;
+
+    margin-top: 45px;
+}
+
+@media(min-width: 900px){
+    .areaTitle{
+        font-size: 40px;
+        margin-bottom: 50px;
+    }
+
+    .buttonArea{
+        font-size: 24px;
+    }
+
+    .footerContainer img{
+        height: 90px;
+        margin-top: 20px;
+    }
+
+}
