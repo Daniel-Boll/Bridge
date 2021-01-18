@@ -4,7 +4,7 @@
 > <p align="center">Projeto desenvolvido para a 2ª edição do Hackathon CCR</p>
 
 <p align="center">
-  <img src="https://www.healthcatalyst.com/wp-content/uploads/2016/12/machine-learning.jpg" width=400>
+  <img src="https://github.com/Daniel-Boll/Bridge/blob/main/images/logoImage.svg" width=400>
 </p>
 
 
